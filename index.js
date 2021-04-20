@@ -128,13 +128,6 @@ app.delete('/deleteEvent/:id', (req, res) => {
     .then((document) => res.send(document.deleteCount > 0))
 });
 
-// app.delete('/deleteEvent/:id', (req, res) => {
-//     serviceCollection.findOneAndDelete({_id: ObjectID (req.params.id)})
-//     .then( (result) => {
-//         res.send(result.deletedCount > 0);
-//     })
-// })
-
 });
 
 
